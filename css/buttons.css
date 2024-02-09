@@ -1,0 +1,35 @@
+.btn-primary{
+    background-color: dodgerblue;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color: royalblue;
+}
+
+.btn-secondary{
+    background-color: mediumseagreen;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-secondary:hover{
+    background-color: seagreen;
+}
+
+.btn-danger{
+    background-color: indianred;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-danger:hover{
+    background-color: darkred;
+}

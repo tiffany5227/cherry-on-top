@@ -1,0 +1,33 @@
+.menu{
+    text-align: center;
+    border-bottom: 1px grey solid;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: indianred;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    color: darkred;
+}
+
+#end-session{
+    color: darkgrey;
+    position: absolute;
+    left: 1%;
+}
+
+#end-session:hover{
+    color: black;
+}

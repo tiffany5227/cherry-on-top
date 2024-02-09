@@ -1,0 +1,75 @@
+#navbar{
+    display: flex;
+    text-align: center;
+}
+
+#navbar a {
+    flex: 1;
+    border-top: 1px darkred dotted;
+    padding: 10px 0px;
+    text-decoration: none;
+    font-weight:bold;
+    background-color: white;
+    color: darkred;
+    font-size: 17px;
+}
+
+#navbar a:hover{
+    border-bottom: 3px darkred solid;
+}
+
+#header-section{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 2;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+
+#header a{
+    margin: 20px 10px 0px 10px;
+}
+
+#login_cart{
+    position: absolute;
+    right: 20px;
+    top: 10%;
+
+    display: flex;
+    color: darkred;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#login {
+    margin: 0;
+    border-right: 1.5px darkred solid;
+}
+
+#login a{
+    text-decoration: none;
+    color: darkred;
+}
+
+#login a:hover{
+    color: firebrick;
+}
+
+#cart{
+    margin: 0;
+    border-left: 1.5px darkred solid;
+}
+
+#cart a{
+    text-decoration: none;    
+    color: darkred;
+}
+
+#cart a:hover{
+    color: firebrick;
+}
