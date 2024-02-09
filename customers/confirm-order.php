@@ -51,7 +51,7 @@
 
 ?>
 
-<div style="text-align: center; padding: 3%;" class="login-box">
+<div class="center-white-box" style="text-align:center;">
     <h2>Thank you for your order!</h2>
     <br>
     <p>Your treats are being prepared! You will receive a call once the order is ready to picked up!</p>
