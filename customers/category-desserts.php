@@ -64,18 +64,15 @@
                     <div>
                         <h3><?php echo $title; ?><br><?php echo $price; ?>$</h3>
                     </div>
-                    <div class="ordering-section">
-                            <form action="" method="POST">
-                                <table class="tbl-quantity">
-                                    <tr>
-                                        <td>Qty:</td>
-                                        <td><input type="number" min="0" name="qty"></td>
-                                        <input type="hidden" name="id" value="<?php echo $id; ?>">
-                                        <td><input type="submit" name="add-to-cart" value="Add To Cart" class="btn-primary" id="add-cart">
-                                    </tr>
-                                </table>
-                            </form>
-                    </div>  
+                    <form action="" method="POST">
+                        <table class="tbl-quantity">
+                            <tr>
+                                <td>Qty: <input id="qty-input" type="number" min="0" name="qty"></td>
+                                <input type="hidden" name="id" value="<?php echo $id; ?>">
+                                <td><input type="submit" name="add-to-cart" value="Add To Cart" class="btn-primary" id="add-cart">
+                            </tr>
+                        </table>
+                    </form>  
                 </div>
                 <?php   
             }

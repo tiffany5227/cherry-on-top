@@ -91,9 +91,6 @@
 
                         if(isset($_SESSION['cart'][$id])){
                             $_SESSION['cart'][$id] = intval($_SESSION['cart'][$id]) + $qty;
-                            // echo $_SESSION['cart'][$id];
-                            // echo $qty;
-
                         }
                         else{
                             $_SESSION['cart'][$id] = $qty;
