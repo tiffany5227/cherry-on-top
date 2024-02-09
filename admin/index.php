@@ -1,4 +1,3 @@
-<!-- This allows you to take parts into your page -->
 <?php include('partials/menu.php'); ?>
 
     <!-- Main Section Starts -->
@@ -17,24 +16,50 @@
             <br><br>
 
             <div class="col-4">
-                <h1>5</h1>
+                <?php 
+                    $sql = "SELECT * FROM tbl_dessert";
+                    $res = mysqli_query($conn, $sql);
+                    $count = mysqli_num_rows($res);
+                ?>
+
+                <h1><?php echo $count; ?></h1>
+                </br>
+                Desserts
+            </div>
+            <div class="col-4">
+                <?php 
+                    $sql = "SELECT * FROM tbl_category";
+                    $res = mysqli_query($conn, $sql);
+                    $count = mysqli_num_rows($res);
+                ?>
+
+                <h1><?php echo $count; ?></h1>
                 </br>
                 Categories
             </div>
             <div class="col-4">
-                <h1>5</h1>
+                <?php 
+                    $sql = "SELECT * FROM tbl_orders";
+                    $res = mysqli_query($conn, $sql);
+                    $count = mysqli_num_rows($res);
+                ?>
+
+                <h1><?php echo $count; ?></h1>
                 </br>
-                Categories
+                Orders
             </div>
             <div class="col-4">
-                <h1>5</h1>
+                <?php 
+                    $sql = "SELECT SUM(total) AS Total FROM tbl_orders";
+                    $res = mysqli_query($conn, $sql);
+                    $row = mysqli_fetch_assoc($res);
+
+                    $total = $row['Total'];
+                ?>
+
+                <h1><?php echo $total; ?>$</h1>
                 </br>
-                Categories
-            </div>
-            <div class="col-4">
-                <h1>5</h1>
-                </br>
-                Categories
+                Total Revenue
             </div>
 
             <div class="clearfix"></div>
