@@ -16,6 +16,6 @@ Customer view:
 Admin view:
 ![(cherry-on-top-admin.gif)](https://github.com/tiffany5227/cherry-on-top/blob/main/GIFs/cherry-on-top-admin.gif)
 
-# Authors and Acknowledgment
+# Acknowledgment
 Thank you to Vijay Thapa for helping me build this website through his tutorials on a Food-Order Website on Youtube!
 Link: https://youtube.com/playlist?list=PLBLPjjQlnVXXBheMQrkv3UROskC0K1ctW&si=4EyRbNRtS_HrWb_k 
