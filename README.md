@@ -11,7 +11,7 @@ Create an env.php file and copy this is into the file and replace YOUR_PASSWORD 
 ```
 # Demo
 Customer view:
-![](cherry-on-top-customer.gif)
+![cherry-on-top-customer.gif](https://github.com/tiffany5227/cherry-on-top/blob/main/GIFs/cherry-on-top-customer.gif)
 
 Admin view:
 ![](cherry-on-top-admin.gif)
